@@ -16,3 +16,9 @@ A categoria de produtos tecnológicos possui a maior receita dentre as três cat
 ## 2. Receita por Região
 O dataset está divido nas regiões Norte, Sul, Leste e Oeste pois se refere as regiões geográficas dos Estados Unidos. Dentre as quatro regiões a que mais se obteve lucro foi a região Oeste e que menos possuiu lucro foi a região Sul.
 
+## 3. Tempo de Entrega
+Grande parte dos pedidos realizados apresentam uma previsão de entrega de 04 a 05 dias, indicando portanto que é relativamente eficiente para a maior parte dos pedidos.
+
+## 4. Segmentação de Clientes
+
+
