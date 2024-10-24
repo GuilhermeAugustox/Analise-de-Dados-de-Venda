@@ -4,10 +4,11 @@
 Este projeto se consiste em uma análise de dados sobre a base de dados "Superstore Sales Dataset" encontrada na plataforma Kaggle, visando compreender ps padrões de vendas, tempos de envios e se identificar os insights relevantes para a tomada de decisões, otimização e estratégias de mercado.
 
 ## Objetivo
-Esta análise de dados teve como seu principal objetivo explorar:
-- Receitas por categoria de produto e região
-- Distribuição do tempo de envio dos pedidos
-- Comportamento dos distintos segmentos de clientes
+Esta análise de dados foi desenvolvida com o foco em fornecer insights relevantes sobre diferentes áreas de atuação da empresa, visando otimizar o desempenho em vendas, marketing e operações logísticas. A partir da exploração dos dados, foi buscado identificar tendências e comportamentos que possam ser utilizados para apoiar a tomada de decisões empresariais em diversos níveis.
+A análise concentrou-se nos principais aspectos:
+- Receita por Categoria de Produto: Foi avaliado quais categorias de produtos são as mais lucrativas, observando o impacto de cada uma na receita geral. Esta análise auxilia a identificar oportunidade de investimento e crescimento em categorias específicas.
+- Distribuição do Tempo de Envio: Foi analisado o tempo médio de envio dos pedidos realizados, revelando assim padrões e possíveis atrasos que possam afetar a eficiência logística e a satisfação final do cliente.
+-Segmentação de Clientes: Foi observado o comportamento de distintos segmentos de clientes (Consumer, Corporate e Home Office), revelando assim quais segmentos geram mais receita e como estratégias de marketing possam ser aplicas para melhorar os resultados de cada segmento.
 
 ## Principais Insights
 ## 1. Receita por Categoria
