@@ -10,14 +10,27 @@ A análise concentrou-se nos principais aspectos:
 - Distribuição do Tempo de Envio: Foi analisado o tempo médio de envio dos pedidos realizados, revelando assim padrões e possíveis atrasos que possam afetar a eficiência logística e a satisfação final do cliente.
 -Segmentação de Clientes: Foi observado o comportamento de distintos segmentos de clientes (Consumer, Corporate e Home Office), revelando assim quais segmentos geram mais receita e como estratégias de marketing possam ser aplicas para melhorar os resultados de cada segmento.
 
+## Dataset
+-**Fonte**: Superstore Sales Dataset do Kaggle.
+-**Descrição**: Dados sobre vendas que incluem informações sobre: produtos, categorias, segmentos de clientes, regiões e datas de envio
+-**Link Dataset**: [Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
+
+## Metodologia
+-**Limpeza de Dados**: Foram encontrados 11 valores nulos na variável "Postal Code", para sua correção ps valores nulos foram substituídos pela média dos valores dessa mesma coluna.
+-**Análise Exploratória (EDA)**: Para a EDA foi realizado as soma das receitas por estados e posteriormente e criação dos gráficos de algumas das váriaveis presentes no dataset alguns desses gráficos estão apresentados mais abaixo.
+
+## Tecnologias e Bibliotecas
+-**Linguagem**: Pyhton.
+-**Bibliotecas**: Pandas, Matplotlib e Seaborn.
+
 ## Principais Insights
 ## 1. Receita por Categoria
 ![Receita por Categoria de Produto](image-1.png)
-A análise da receita por categoria de produto mostra que a categoria Technology gera a maior receita, possindo um total de mais de 800.000, seguida por Furniture e Office Supplies, possuindo receitas próximas, ambas ligeiramente abaixo de 750.000.
+A análise da receita por categoria de produto mostra que a categoria Technology gera a maior receita, possuindo um total de mais de 800.000, seguida por Furniture e Office Supplies, possuindo receitas próximas, ambas ligeiramente abaixo de 750.000.
 Os resultados indicam:
 - Os produtos de tecnologia são os mais lucrativos, indicando uma maior demanda ou preços elevadis nesse segmento. Podendo sugerir relevância de continuar investindo nessa categoria de produtos.
 - Furniture (Mobiliário) e Office Supplies (Suplementos de Escritório) também contribuem significativamente para a receita, desmonstrando assim que essas categorias são essenciais, mesmo que apresentam receitas ligeiramente menores em relação a Technology (Tecnologia).
-- O aperfeiçoamento da estratégia comercial pode beneficiar todas as categorias, possuindo um foco maior na categoria Technology (Tecnologia), possivelmente expandindo seu portifólio e as promoções para impulsionar as vendas nessa categoria.
+- O aperfeiçoamento da estratégia comercial pode beneficiar todas as categorias, possuindo um foco maior na categoria Technology (Tecnologia), possivelmente expandindo seu portfólio e as promoções para impulsionar as vendas nessa categoria.
 
 ## 2. Receita por Região
 ![Gráfico de Receita por Região](image.png)
@@ -25,7 +38,7 @@ A análise de receita por região demonstra que a região West(Oeste) é que mai
 Os resultados indicam:
 - As regiões West(Oeste) e East(Leste) são as regiões mais lucrativas, o que sugere uma maior concentração de mercado ou uma elevada demanda de produtos nessas áreas. Torna-se interessante a exploração e criação de novas estratégias de marketing e vendas nessas regiões com o intuito de aompliar a receita continuamente.
 - As regiões Central e South(Sul) embora gerem menos receita, ainda possuem uma contribuição relevante. Com estratégias específicas para melhorar o desempenho nessas regiões podem auxiliar a equilibrar o crescimento entre todas as regiões.
-- Aumentar os investimentos nas regiões que possuem menor desempenho pode aumentar a regeita geral, enquanto a expansão da presença em regiões mais lucrativas pode consolidar a liderança de mercado.
+- Aumentar os investimentos nas regiões que possuem menor desempenho pode aumentar a receita geral, enquanto a expansão da presença em regiões mais lucrativas pode consolidar a liderança de mercado.
 
 ## 3. Tempo de Entrega
 ![Distribuição de Tempo de Envio](image-2.png)
@@ -33,7 +46,7 @@ A análise da distribuição de tempo de envio mostra que grande parte dos pedid
 Os resultados indicam:
 - O tempo de entrega padrão fica em torno de 4 a 5 dias. Para a maioria dos clientes este prazo pode ser considerado um tempo esperado para uma entrega.
 - Há oportunidades para a otimização no processo de envio, principalmente se a redução do tempo de envior ser uma prioridade. Aperfeiçoar a  eficiência pode resultar em mais entregas em menos de 3 dias.
-- Entregas expressas pode ser uma área a ser mais explorada, pois é quantidade de entregas realizadas em 0 ou 1 dia é baixa, possivelmente indicando uma demanda menor ou uma oportunidade para a expanção desse serviço.
+- Entregas expressas pode ser uma área a ser mais explorada, pois é quantidade de entregas realizadas em 0 ou 1 dia é baixa, possivelmente indicando uma demanda menor ou uma oportunidade para a expansão desse serviço.
 
 ## 4. Segmentação de Clientes
 ![Gráfico de Segmentação de Cliente](image-3.png)
