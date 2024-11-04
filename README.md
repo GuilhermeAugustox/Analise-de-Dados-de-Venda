@@ -56,3 +56,7 @@ Essa distribuição de receita indica que:
 - O segmento Corporate apresenta grande potencial de expansão, principalmente tendo foco em parcerias e serviços especializados.
 - O segmento Home Office, mesmo possuindo a menor receita, ainda pode ser relevante para produtos e serviços específicos, e estratégias voltadas para esse público podem arretar em um aumento da sua participação na receita
 
+## Licença 
+Esse projeto é licenciado sob a liderança MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
